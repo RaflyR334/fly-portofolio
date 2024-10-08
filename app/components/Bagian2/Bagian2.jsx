@@ -1,5 +1,5 @@
 import React from 'react';
-import './Bagian2.css'; // Import a CSS file for styling
+import './Bagian2.css';
 
 const Bagian2 = () => {
   return (

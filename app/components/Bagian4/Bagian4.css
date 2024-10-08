@@ -24,12 +24,12 @@
     margin: 30px auto;
     padding-left: 50px;
     padding-right: 50px;
-    flex-direction: row; /* Pastikan gambar ada di kiri */
+    flex-direction: row;
   }
   
   .project-details {
     flex: 1;
-    margin-left: 20px; /* Memberi jarak antara gambar dan teks */
+    margin-left: 20px;
   }
   
   .project-title {
@@ -79,8 +79,8 @@
   
   .contact-content {
     max-width: 600px;
-    margin-left: 0; /* Ensure no automatic centering occurs */
-    padding-left: 0; /* Ensure padding does not push content to the right */
+    margin-left: 0;
+    padding-left: 0;
   }
   
   .contact-content h3 {

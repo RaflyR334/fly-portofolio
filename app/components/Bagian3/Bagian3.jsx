@@ -1,6 +1,5 @@
 import React from "react";
 import "./Bagian3.css";
-import icon from "../../assets/img/nextjs-icon-svgrepo-com.svg";
 
 const Bagian3 = () => {
   return (

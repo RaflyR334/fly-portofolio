@@ -1,6 +1,5 @@
 import React from 'react';
 import './Bagian1.css';
-import Gam1 from "../../assets/img/gam1.svg";
 
 const Bagian1 = () => {
   return (
