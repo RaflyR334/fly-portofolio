@@ -1,0 +1,76 @@
+.work-experience-section {
+    background-color: #0d0221;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .experience-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px; 
+  }
+  
+  .experience-card {
+    background-color: #1a1a2e; 
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(86, 34, 255, 0.6); 
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px auto; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .experience-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #b0b0b0; 
+  }
+
+  .learn-more-button {
+    background-color: #6c5ce7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #4834d4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .experience-cards-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
