@@ -1,4 +1,9 @@
-.container4 {
+body {
+  background-color: #0d0221; 
+  color: #ffffff;
+}
+
+  .container4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
