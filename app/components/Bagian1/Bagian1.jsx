@@ -4,6 +4,8 @@ import './Bagian1.css';
 const Bagian1 = () => {
   return (
     <div className="main-container">
+      <br />
+      <br />
       <div className="header">
         <p className="greeting">Hello! I am <span className="highlight">Rafly</span></p>
         <img src="https://png.pngtree.com/png-vector/20190321/ourlarge/pngtree-vector-users-icon-png-image_856952.jpg" alt="Memoji" className="memoji" />
